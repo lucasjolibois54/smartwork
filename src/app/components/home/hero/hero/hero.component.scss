@@ -25,6 +25,8 @@ h1{
 .hero-img{
     position: absolute;
     top: 0;
+    z-index: -40;
+    width: 100vw;
 }
 
 .btn-pri{
