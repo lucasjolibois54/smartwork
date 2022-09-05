@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+h1{
+    font-family: 'Source Serif Pro', serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hero-title{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20vh;
+    font-weight: 600;
+}
+
+.hero-p{
+    text-align: center;
+    color: #A8AAB7;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    line-height: 2.3;
+}
+
+.btn-pri{
+    background-color: #F0F2F9;
+    color: #000;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn-sec{
+    background-color: #000;
+    color: #F0F2F9;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
