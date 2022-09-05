@@ -6,6 +6,7 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import { HeroComponent } from 'src/app/components/home/hero/hero/hero.component';
+import { SubHeroComponent } from 'src/app/components/home/subhero/sub-hero/sub-hero.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { HeroComponent } from 'src/app/components/home/hero/hero/hero.component'
   declarations: [
     HomePage,
     HeroComponent,
+    SubHeroComponent
   ]
 })
 export class HomePageModule {}
