@@ -7,6 +7,7 @@ import { HomePage } from './home.page';
 import { HomePageRoutingModule } from './home-routing.module';
 import { HeroComponent } from 'src/app/components/home/hero/hero/hero.component';
 import { SubHeroComponent } from 'src/app/components/home/subhero/sub-hero/sub-hero.component';
+import { DemandingJobsComponent } from 'src/app/components/home/demaningjobs/demanding-jobs/demanding-jobs.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { SubHeroComponent } from 'src/app/components/home/subhero/sub-hero/sub-h
   declarations: [
     HomePage,
     HeroComponent,
-    SubHeroComponent
+    SubHeroComponent,
+    DemandingJobsComponent
   ]
 })
 export class HomePageModule {}
