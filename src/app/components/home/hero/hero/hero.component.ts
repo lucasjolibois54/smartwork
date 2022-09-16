@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero.component.scss'],
 })
 export class HeroComponent implements OnInit {
+  title="Smart platform to"
+  titletwo="help you find work."
 
   constructor() { }
 
