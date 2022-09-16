@@ -8,6 +8,7 @@ import { HomePageRoutingModule } from './home-routing.module';
 import { HeroComponent } from 'src/app/components/home/hero/hero/hero.component';
 import { SubHeroComponent } from 'src/app/components/home/subhero/sub-hero/sub-hero.component';
 import { DemandingJobsComponent } from 'src/app/components/home/demaningjobs/demanding-jobs/demanding-jobs.component';
+import { HowToGetStartedComponent } from 'src/app/components/home/howToGetStarted/how-to-get-started/how-to-get-started.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { DemandingJobsComponent } from 'src/app/components/home/demaningjobs/dem
     HomePage,
     HeroComponent,
     SubHeroComponent,
-    DemandingJobsComponent
+    DemandingJobsComponent,
+    HowToGetStartedComponent
   ]
 })
 export class HomePageModule {}
