@@ -8,6 +8,7 @@ import { HomePageRoutingModule } from './home-routing.module';
 import { HeroComponent } from 'src/app/components/home/hero/hero/hero.component';
 import { SubHeroComponent } from 'src/app/components/home/subhero/sub-hero/sub-hero.component';
 import { DemandingJobsComponent } from 'src/app/components/home/demaningjobs/demanding-jobs/demanding-jobs.component';
+import { ReviewComponent } from 'src/app/components/home/review/review.component';
 import { HowToGetStartedComponent } from 'src/app/components/home/howToGetStarted/how-to-get-started/how-to-get-started.component';
 
 
@@ -23,6 +24,7 @@ import { HowToGetStartedComponent } from 'src/app/components/home/howToGetStarte
     HeroComponent,
     SubHeroComponent,
     DemandingJobsComponent,
+    ReviewComponent,
     HowToGetStartedComponent
   ]
 })
